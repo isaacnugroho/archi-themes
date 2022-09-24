@@ -21,8 +21,8 @@
 @import url("platform:/plugin/com.github.isaacnugroho.archi.themes/themes/eclipse/css/groovy-dark/archi-groovy-dark-styling.css");
 
 .MPartStack.active CTabFolder Canvas {
-    background-color: #262626;
-    color: #CCCCCC;
+    background-color: #282828; /* #262626 */
+    color: #BDAE93; /* #CCCCCC */
 }
 
 

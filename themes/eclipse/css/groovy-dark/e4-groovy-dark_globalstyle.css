@@ -92,17 +92,17 @@ SashForm > StyledText {
 Text[style~='SWT.SEARCH'],
 Text[style~='SWT.SEARCH'] + Label /* SWT-BUG: adjacent sibling selector is ignored (CSS2.1) */ {
     /* search boxes */
-    background-color: #333333;
-    color: #F4F7F7;
+    background-color: #282828; /* #333333 */
+    color: #F9F5D7; /* #F4F7F7 */
 }
 
 Text[style~='SWT.READ_ONLY'] {
     background-color: '#org-eclipse-ui-workbench-DARK_BACKGROUND'; 
-    color: #bbbbbb;
+    color: #A89984; /* #BBBBBB */
 }
 
 Shell Tree, Shell Table, Shell List {
-	background-color: #2F2F2F;
+	background-color: #282828; /* #2f2f2f */
 }
 
 DatePicker,
@@ -136,8 +136,8 @@ ImageHyperlink {
 
 ViewerPane,
 DrillDownComposite {
-    background-color: #232323;
-    color: #CCCCCC;
+    background-color: #282828; /* #232323 */
+    color: #BDAE93; /* #CCCCCC */
 }
 
 ProgressInfoItem,
@@ -149,7 +149,7 @@ CompareViewerPane > * {
 }
 
 ProgressIndicator {
-    background-color: #777777;
+    background-color: #665C54; /* #777777 */
     color: '#org-eclipse-ui-workbench-DARK_FOREGROUND'; 
 }
 
@@ -157,22 +157,22 @@ DiscoveryItem,
 DiscoveryItem Label,
 DiscoveryItem Composite {
     background-color: #383C3E;
-    color: #dddddd;
+    color: #F9F5D7; /* #DDDDDD */
 }
 DiscoveryItem StyledText {
     background-color: #383C3E;
-    color: #aaaaaa;
+    color: #A89984; /* #AAAAAA */
 }
 DiscoveryItem Link {
     background-color: #383C3E;
-    color: #8B9498;
+    color: #83A598; /* #8B9498 */
 }
 
 CatalogSwitcher,
 CatalogSwitcher > ScrolledComposite > Composite > Composite /* ignored because hard-coded */,
 CategoryItem {
     background-color: '#org-eclipse-ui-workbench-DARK_BACKGROUND'; 
-    color: #dddddd;
+    color: #F9F5D7; /* #DDDDDD */
 }
 GradientCanvas,
 GradientCanvas > Label {
@@ -186,29 +186,29 @@ GradientCanvas {
 CategoryItem > GradientCanvas,
 CategoryItem > GradientCanvas > Label {
     /* SWT-BUG workaround: a style for background is not applied on GradientCanvas (CSS engine repaint issue) */
-    background-color: #fafafa;
-    color: #333333;
+    background-color: #F9F5D7; /* #FAFAFA */
+    color: #282828; /* #333333 */
 }
 CategoryItem > GradientCanvas {
     /* SWT-BUG workaround: a style for background is not applied on GradientCanvas (CSS engine repaint issue) */
-    background: #fafafa;
-    background-image: #333333;
+    background: #F9F5D7; /* #FAFAFA */
+    background-image: #282828; /* #333333 */
 }
 
 WebSite {
     background-color: #41464A;
-    color: #dddddd;
+    color: #F9F5D7; /* #DDDDDD */
 }
 
 Form,
 FormHeading {
-    background-color: #505F70;
+    background-color: #458588; /* #505F70 */
     color: #9AC9D8;
 }
 
 Form {
 	/* Bug 465148: Additional styling for the Form */
-    text-background-color: #505F70;
+    text-background-color: #458588; /* #505F70 */
 
 	tb-toggle-hover-color: #313538;
 	tb-toggle-color: #313538;
@@ -225,46 +225,46 @@ Form {
 
 Section {
     background-color: #4F5355;
-    color: #AEBED0;
+    color: #83A598; /* #AEBED0 */
     background-color-titlebar: #4F5355;
     background-color-gradient-titlebar: #4F5355;
     border-color-titlebar: #4F5355;
-    swt-titlebar-color: #cccccc;
-	tb-toggle-hover-color: #F4F7F7;
-	tb-toggle-color: #F4F7F7;
+    swt-titlebar-color: #BDAE93; /* #CCCCCC */
+	tb-toggle-hover-color: #F9F5D7; /* #F4F7F7 */
+	tb-toggle-color: #F9F5D7; /* #F4F7F7 */
 }
 
 Table,
 Tree {
-	swt-header-color: #CCCCCC;
+	swt-header-color: #BDAE93; /* #CCCCCC */
 	swt-header-background-color: #383D3F;
 }
 
 Twistie {
-    color: #E8E4DF;
+    color: #F9F5D7; /* #E8E4DF */
 }
 
 .MPartSashContainer {
     background-color: '#org-eclipse-ui-workbench-DARK_BACKGROUND'; 
-    color: #EEEEEE;
+    color: #F9F5D7; /* #EEEEEE */
 }
 
 HeapStatus {
 	background-color: #4F5355;
-	color: #EEEEEE;
+	color: #F9F5D7; /* #EEEEEE */
 }
 
 PageSiteComposite, PageSiteComposite > CImageLabel {
-    color: #EEEEEE;
+    color: #F9F5D7; /* #EEEEEE */
 }
 PageSiteComposite > PropertyTable {
-    background-color: #333333;
-    color: #EEEEEE;
+    background-color: #282828; /* #333333 */
+    color: #F9F5D7; /* #EEEEEE */
 }
 PageSiteComposite > PropertyTable:disabled {
 /* SWT-BUG: event is triggered but styles for PropertyTable are hard-coded */
-    background-color: #444444;
-    color: #EEEEEE;
+    background-color: #32303F; /* #444444 */
+    color: #F9F5D7; /* #EEEEEE */
 }
 
 /* See Bug 430848: We need to override the theme of the Eclipse splash screen, because
@@ -273,7 +273,7 @@ PageSiteComposite > PropertyTable:disabled {
  */
 Label#org-eclipse-ui-splash-progressText {
 	background-color: inherit; /* transparent */
-	color: #9c9696; /* see property startupForegroundColor in the product */
+	color: #928374; /* #9C9696 */ /* see property startupForegroundColor in the product */
 }
 
 Label#org-eclipse-ui-buildid-text {
@@ -281,7 +281,7 @@ Label#org-eclipse-ui-buildid-text {
 }
 
 ProgressIndicator#org-eclipse-ui-splash-progressIndicator {
-	background-color: #e1e1e1;
+	background-color: #F9F5D7; /* #E1E1E1 */
 }
 
 Link {
@@ -289,9 +289,9 @@ Link {
 }
 
 ExpandableComposite {
-    swt-titlebar-color: #cccccc;
-	tb-toggle-hover-color: #F4F7F7;
-	tb-toggle-color: #F4F7F7;
+    swt-titlebar-color: #BDAE93; /* #CCCCCC */
+	tb-toggle-hover-color: #F9F5D7; /* #F4F7F7 */
+	tb-toggle-color: #F9F5D7; /* #F4F7F7 */
 }
 
 TabbedPropertyTitle > CLabel{
@@ -299,10 +299,10 @@ TabbedPropertyTitle > CLabel{
 }
 
 TabbedPropertyTitle {
-	swt-backgroundGradientStart-color:  #505F70;
-	swt-backgroundGradientEnd-color:    #505F70;
-	swt-backgroundBottomKeyline1-color: #505F70;
-	swt-backgroundBottomKeyline2-color: #505F70;
+	swt-backgroundGradientStart-color:  #458588; /* #505F70 */
+	swt-backgroundGradientEnd-color:    #458588; /* #505F70 */
+	swt-backgroundBottomKeyline1-color: #458588; /* #505F70 */
+	swt-backgroundBottomKeyline2-color: #458588; /* #505F70 */
 }
 
 TabbedPropertyList {

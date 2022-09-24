@@ -24,8 +24,8 @@
 @import url("platform:/plugin/com.github.isaacnugroho.archi.themes/themes/eclipse/css/groovy-dark/archi-groovy-dark-styling.css");
 
 CTabFolder Canvas {
-    background-color: #2F2F2F;
-    color: #CCCCCC;
+    background-color: #282828; /* #2f2f2f */
+    color: #BDAE93; /* #CCCCCC */
 }
 
 CTabFolder Scale {
@@ -33,13 +33,13 @@ CTabFolder Scale {
 }
 
 .MPartStack.active CTabFolder Canvas {
-    background-color: #262626;
-    color: #CCCCCC;
+    background-color: #282828; /* #262626 */
+    color: #BDAE93; /* #CCCCCC */
 }
 
 .MPartStack.active Table {
-    background-color: #2F2F2F;
-    color: #CCCCCC;
+    background-color: #282828; /* #2f2f2f */
+    color: #BDAE93; /* #CCCCCC */
 }
 
 /* Archi added this. See https://bugs.eclipse.org/bugs/show_bug.cgi?id=567933 */
@@ -80,7 +80,7 @@ ImageBasedFrame,
 .MPartStack.active .MPart Form Button[style~='SWT.RADIO']
 {
 	background-color: inherit;
-	color: #f4f7f7;
+	color: #F9F5D7; /* #F4F7F7 */
 }
 
 /* Make the content of the Form brighter because the color of
@@ -105,7 +105,7 @@ ImageBasedFrame,
 .MPartStack.active .MPart Form Text[style~='SWT.READ_ONLY'],
 .MPartStack.active .MPart Form DependenciesComposite > SashForm > Section > * { /* Section > DependenciesComposite$... */ 
     background-color: #4f5355;
-    color: #f4f7f7;
+    color: #F9F5D7; /* #F4F7F7 */
 }
 #org-eclipse-help-ui-HelpView Form,
 #org-eclipse-help-ui-HelpView Form Sash,
@@ -116,8 +116,8 @@ ImageBasedFrame,
 #org-eclipse-help-ui-HelpView Form Group,
 #org-eclipse-help-ui-HelpView Form ScrolledPageBook,
 #org-eclipse-help-ui-HelpView Form Text[style~='SWT.READ_ONLY'] {
-    background-color: #2F2F2F;
-    color: #CCCCCC;
+    background-color: #282828; /* #2f2f2f */
+    color: #BDAE93; /* #CCCCCC */
 }
 .MPartStack.active #org-eclipse-help-ui-HelpView Form,
 .MPartStack.active #org-eclipse-help-ui-HelpView Form Sash,
@@ -128,12 +128,12 @@ ImageBasedFrame,
 .MPartStack.active #org-eclipse-help-ui-HelpView Form Group,
 .MPartStack.active #org-eclipse-help-ui-HelpView Form ScrolledPageBook,
 .MPartStack.active #org-eclipse-help-ui-HelpView Form Text[style~='SWT.READ_ONLY'] {
-    background-color: #262626;
-    color: #BBBBBB;
+    background-color: #282828; /* #262626 */
+    color: #A89984; /* #BBBBBB */
 }
 .MPart Form Section Tree,
 .MPartStack.active .MPart Form Section Tree {
     background-color: #313538;
-    color: #DDDDDD;
+    color: #F9F5D7; /* #DDDDDD */
 }
 

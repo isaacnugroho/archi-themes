@@ -21,13 +21,13 @@
 @import url("platform:/plugin/com.github.isaacnugroho.archi.themes/themes/eclipse/css/groovy-dark/archi-groovy-dark-styling.css");
 
 CTabFolder Canvas {
-    background-color: #2F2F2F;
-    color: #CCCCCC;
+    background-color: #282828; /* #2f2f2f */
+    color: #BDAE93; /* #CCCCCC */
 }
 
 .MPartStack.active CTabFolder Canvas {
-    background-color: #262626;
-    color: #CCCCCC;
+    background-color: #282828; /* #262626 */
+    color: #BDAE93; /* #CCCCCC */
 }
 
 /* #################### Bottom Status Bar ######################## */
@@ -48,34 +48,34 @@ TabFolder {
     /* background-color is not applied to the whole button,
        but text color is changed, so it appear light on light */
     background-color: '#org-eclipse-ui-workbench-DARK_BACKGROUND'; 
-    color: #222222;
+    color: #282828; /* #222222 */
 }
 
 Button {
     /* background-color is not applied to the whole button,
        but text color is changed, so it appear light on light */
-    background-color: #2F2F2F;
-    color: #CCCCCC;
+    background-color: #282828; /* #2f2f2f */
+    color: #BDAE93; /* #CCCCCC */
 }
 Button[style~='SWT.CHECK'] {
     /* currently, Button object isn't consistent (eg. also a checkbox is seen as Button) */
     /* so, css rules applied to Button have to be overridden for non-Button matches */
     background-color: '#org-eclipse-ui-workbench-DARK_BACKGROUND'; 
-    color: #dddddd;
+    color: #F9F5D7; /* #DDDDDD */
 }
 Button[style~='SWT.RADIO'] {
     /* currently, Button object isn't consistent (eg. also a checkbox is seen as Button) */
     /* so, css rules applied to Button have to be overridden for non-Button matches */
     background-color: '#org-eclipse-ui-workbench-DARK_BACKGROUND'; 
-    color: #dddddd;
+    color: #F9F5D7; /* #DDDDDD */
 }
 
 Combo {
-    background-color: #949DA5; 
-    color: #222222;  /* background of drop-drown list is hard-coded to white */
+    background-color: #83A598; /* #949DA5 */ 
+    color: #282828; /* #222222 */  /* background of drop-drown list is hard-coded to white */
 }
 Combo:selected {
     background-color: #41464A;
-    color: #FFFFFF;
+    color: #F9F5D7; /* #FFFFFF */
 }
 

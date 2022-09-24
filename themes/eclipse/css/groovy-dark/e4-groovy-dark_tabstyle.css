@@ -88,7 +88,7 @@ CTabFolder.MArea CTabItem CLabel {
 }
 
 CTabItem.busy {
-    color: #888888;
+    color: #7C6F64; /* #888888 */
 }
 
 CTabFolder.MArea .MPartStack,CTabFolder.MArea .MPartStack.active {
