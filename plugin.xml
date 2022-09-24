@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+  <extension
+      point="org.eclipse.e4.ui.css.swt.theme"
+      schema="schema/org.eclipse.e4.ui.css.swt.theme.exsd">
+    <theme
+        basestylesheeturi="themes/eclipse/css/e4-groovy-dark_linux.css"
+        id="com.github.isaacnugroho.archi.themes.groovy_dark"
+        label="Groovy Dark"
+        os="linux">
+    </theme>
+  </extension>
+</plugin>
