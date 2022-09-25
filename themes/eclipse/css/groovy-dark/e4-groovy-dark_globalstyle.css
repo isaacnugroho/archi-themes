@@ -130,7 +130,7 @@ RegistryFilteredTree {
 Hyperlink,
 ImageHyperlink {
 	background-color: inherit;
-    color: #6fc5ee;
+    color: #8EC07C; /* #6FC5EE */
 }
 
 
@@ -156,15 +156,15 @@ ProgressIndicator {
 DiscoveryItem,
 DiscoveryItem Label,
 DiscoveryItem Composite {
-    background-color: #383C3E;
+    background-color: #3C3836; /* #383C3E */
     color: #F9F5D7; /* #DDDDDD */
 }
 DiscoveryItem StyledText {
-    background-color: #383C3E;
+    background-color: #3C3836; /* #383C3E */
     color: #A89984; /* #AAAAAA */
 }
 DiscoveryItem Link {
-    background-color: #383C3E;
+    background-color: #3C3836; /* #383C3E */
     color: #83A598; /* #8B9498 */
 }
 
@@ -176,12 +176,12 @@ CategoryItem {
 }
 GradientCanvas,
 GradientCanvas > Label {
-    background-color: #3f4447;
-    color: #9ac9d8;
+    background-color: #1D2021; /* #3f4447 */
+    color: #8EC07C; /* #9ac9d8 */
 }
 GradientCanvas {
     /* SWT-BUG workaround: GradientCanvas background-color is ignored */
-    background: #3f4447;
+    background: #1D2021; /* #3f4447 */
 }
 CategoryItem > GradientCanvas,
 CategoryItem > GradientCanvas > Label {
@@ -196,26 +196,26 @@ CategoryItem > GradientCanvas {
 }
 
 WebSite {
-    background-color: #41464A;
+    background-color: #3C3836; /* #41464A */
     color: #F9F5D7; /* #DDDDDD */
 }
 
 Form,
 FormHeading {
-    background-color: #458588; /* #505F70 */
-    color: #9AC9D8;
+    background-color: #32302F; /* #505F70 */
+    color: #8EC07C; /* #9ac9d8 */
 }
 
 Form {
 	/* Bug 465148: Additional styling for the Form */
-    text-background-color: #458588; /* #505F70 */
+    text-background-color: #32302F; /* #505F70 */
 
-	tb-toggle-hover-color: #313538;
-	tb-toggle-color: #313538;
-	h-hover-full-color: #313538;
-	h-hover-light-color: #313538;
-	h-bottom-keyline-2-color: #313538;
-	h-bottom-keyline-1-color: #313538;
+	tb-toggle-hover-color: #3C3836; /* #313538 */
+	tb-toggle-color: #3C3836; /* #313538 */
+	h-hover-full-color: #3C3836; /* #313538 */
+	h-hover-light-color: #3C3836; /* #313538 */
+	h-bottom-keyline-2-color: #3C3836; /* #313538 */
+	h-bottom-keyline-1-color: #3C3836; /* #313538 */
 
 	/* We also have to force the background mode (the
 	 * Label/ToolBar in the heading should inherit it).
@@ -224,11 +224,11 @@ Form {
 }
 
 Section {
-    background-color: #4F5355;
+    background-color: #3C3836; /* #505F70 */
     color: #83A598; /* #AEBED0 */
-    background-color-titlebar: #4F5355;
-    background-color-gradient-titlebar: #4F5355;
-    border-color-titlebar: #4F5355;
+    background-color-titlebar: #3C3836; /* #505F70 */
+    background-color-gradient-titlebar: #3C3836; /* #505F70 */
+    border-color-titlebar: #3C3836; /* #505F70 */
     swt-titlebar-color: #BDAE93; /* #CCCCCC */
 	tb-toggle-hover-color: #F9F5D7; /* #F4F7F7 */
 	tb-toggle-color: #F9F5D7; /* #F4F7F7 */
@@ -237,7 +237,7 @@ Section {
 Table,
 Tree {
 	swt-header-color: #BDAE93; /* #CCCCCC */
-	swt-header-background-color: #383D3F;
+	swt-header-background-color: #3C3836; /* #383D3F */
 }
 
 Twistie {
@@ -250,7 +250,7 @@ Twistie {
 }
 
 HeapStatus {
-	background-color: #4F5355;
+	background-color: #3C3836; /* #505F70 */
 	color: #F9F5D7; /* #EEEEEE */
 }
 
@@ -295,14 +295,14 @@ ExpandableComposite {
 }
 
 TabbedPropertyTitle > CLabel{
-	color: #9AC9D8;
+	color: #8EC07C; /* #9ac9d8 */
 }
 
 TabbedPropertyTitle {
-	swt-backgroundGradientStart-color:  #458588; /* #505F70 */
-	swt-backgroundGradientEnd-color:    #458588; /* #505F70 */
-	swt-backgroundBottomKeyline1-color: #458588; /* #505F70 */
-	swt-backgroundBottomKeyline2-color: #458588; /* #505F70 */
+	swt-backgroundGradientStart-color:  #32302F; /* #505F70 */
+	swt-backgroundGradientEnd-color:    #32302F; /* #505F70 */
+	swt-backgroundBottomKeyline1-color: #32302F; /* #505F70 */
+	swt-backgroundBottomKeyline2-color: #32302F; /* #505F70 */
 }
 
 TabbedPropertyList {

@@ -72,12 +72,12 @@
 .MPart ViewForm > CLabel,
 .MPart PageBook > Label,
 .MPart PageBook > SashForm {
-    background-color: #313538;
-    color: #CCC;
+    background-color: #3C3836; /* #313538 */
+    color: #BDAE93; /* #CCCCCC */
 }
 
 .MPart Section Tree {
-    background-color: #383A3B;
+    background-color: #3C3836; /* #383A3B */
     color: #F9F5D7; /* #DDDDDD */
 }
 
@@ -90,7 +90,7 @@
 .MPart Composite > StyledText,
 .MPart PageBook > SashForm Label,
 .MPart SashForm > Text[style~='SWT.BORDER'] {
-    background-color: #3f4447;
+    background-color: #1D2021; /* #3f4447 */
     color: #A89984; /* #BBBBBB */
 }
 
@@ -98,8 +98,8 @@
 .MPart FormHeading > TitleRegion,
 .MPart FormHeading > TitleRegion > Label,
 .MPart FormHeading > TitleRegion > StyledText {
-    background-color: #458588; /* #505F70 */
-    color: #9ac9d8;
+    background-color: #32302F; /* #505F70 */
+    color: #8EC07C; /* #9ac9d8 */
 }
 
 .MPart FormHeading,
@@ -107,8 +107,8 @@
     swt-background-mode: none;
 }
 .MPart FormHeading > CLabel {
-    background-color: #458588; /* #505F70 */
-    color: #E98787;
+    background-color: #32302F; /* #505F70 */
+    color: #D3869D; /* #E98787 */
 }
 /* ------------------------------------------------------------- */
 

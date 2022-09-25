@@ -104,7 +104,7 @@ ImageBasedFrame,
 .MPartStack.active .MPart Form ListEditorComposite,
 .MPartStack.active .MPart Form Text[style~='SWT.READ_ONLY'],
 .MPartStack.active .MPart Form DependenciesComposite > SashForm > Section > * { /* Section > DependenciesComposite$... */ 
-    background-color: #4f5355;
+    background-color: #3C3836; /* #505F70 */
     color: #F9F5D7; /* #F4F7F7 */
 }
 #org-eclipse-help-ui-HelpView Form,
@@ -133,7 +133,7 @@ ImageBasedFrame,
 }
 .MPart Form Section Tree,
 .MPartStack.active .MPart Form Section Tree {
-    background-color: #313538;
+    background-color: #282828; /* #313538 */
     color: #F9F5D7; /* #DDDDDD */
 }
 

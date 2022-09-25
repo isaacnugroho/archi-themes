@@ -75,7 +75,7 @@ Combo {
     color: #282828; /* #222222 */  /* background of drop-drown list is hard-coded to white */
 }
 Combo:selected {
-    background-color: #41464A;
+    background-color: #3C3836; /* #41464A */
     color: #F9F5D7; /* #FFFFFF */
 }
 

@@ -34,43 +34,43 @@ IEclipsePreferences#org-eclipse-ui-editors:org-eclipse-ui-themes { /* pseudo att
 		'currentLineColor=40,40,40' /* 55,55,55 */
 		'deletionIndicationColor=131,165,152' /* 224,226,228 */
 		'filteredSearchResultIndicationColor=7,102,120' /* 27,98,145 */
-		'hyperlinkColor=102,175,249'
+		'hyperlinkColor=142,192,124' /* 102,175,249 */
 		'hyperlinkColor.SystemDefault=false'
 		'infoIndicationColor=69,133,136' /* 86,194,170 */
 		'lineNumberColor=131,165,152' /* 119,145,154 */
-		'linked.slave.color=66,156,255'
+		'linked.slave.color=251,73,52' /* 66,156,255 */
 		'matchingTagIndicationColor=50,48,47' /* 72,72,72 */
 		'occurrenceIndicationColor=7,102,120' /* 27,98,145 */
-		'overrideIndicatorColor=78,120,117'
-		'printMarginColor=81,86,88'
+		'overrideIndicatorColor=66,123,88' /* 78,120,117 */
+		'printMarginColor=80,73,69' /* 81,86,88 */
 		'searchResultHighlighting=false'
 		'searchResultIndication=true'
 		'searchResultIndicationColor=80,73,69' /* 94,94,94 */
 		'searchResultTextStyle=BOX'
 		'secondaryIPColor=80,73,69' /* 90,90,90 */
-		'spellingIndicationColor=253,170,211'
+		'spellingIndicationColor=211,134,157' /* 253,170,211 */
 		'writeOccurrenceIndicationColor=7,102,120' /* 27,98,145 */
 }
 
 IEclipsePreferences#org-eclipse-ui-workbench:org-eclipse-ui-themes { /* pseudo attribute added to allow contributions without replacing this node, see Bug 466075 */
 	preferences:
-		'ACTIVE_HYPERLINK_COLOR=138,201,242'
+		'ACTIVE_HYPERLINK_COLOR=142,192,124' /* 138,201,242 */
 		'CONFLICTING_COLOR=240,15,66'
-		'CONTENT_ASSIST_BACKGROUND_COLOR=52,57,61'
+		'CONTENT_ASSIST_BACKGROUND_COLOR=50,48,47' /* 52,57,61 */
 		'CONTENT_ASSIST_FOREGROUND_COLOR=249,245,215' /* 238,238,238 */
-		'org.eclipse.ui.workbench.INFORMATION_BACKGROUND=81,86,88'
+		'org.eclipse.ui.workbench.INFORMATION_BACKGROUND=80,73,69' /* 81,86,88 */
 		'org.eclipse.ui.workbench.INFORMATION_FOREGROUND=249,245,215' /* 238,238,238 */
-		'org.eclipse.ui.workbench.HOVER_BACKGROUND=52,57,61'
+		'org.eclipse.ui.workbench.HOVER_BACKGROUND=50,48,47' /* 52,57,61 */
 		'org.eclipse.ui.workbench.HOVER_FOREGROUND=249,245,215' /* 238,238,238 */
-		'ERROR_COLOR=247,68,117'
-		'HYPERLINK_COLOR=111,197,238'
-		'INCOMING_COLOR=31,179,235'
+		'ERROR_COLOR=251,73,52' /* 247,68,117 */
+		'HYPERLINK_COLOR=142,192,124' /* 111,197,238 */
+		'INCOMING_COLOR=184,187,38' /* 31,179,235 */
 		'OUTGOING_COLOR=249,245,215' /* 238,238,238 */
-		'RESOLVED_COLOR=108,210,17'
+		'RESOLVED_COLOR=215,153,33' /* 108,210,17 */
 		'EDITION_COLOR=249,245,215' /* 238,238,238 */
-		'org.eclipse.search.ui.match.highlight=206,92,0'
+		'org.eclipse.search.ui.match.highlight=214,93,14' /* 206,92,0 */
 		'org.eclipse.ui.editors.rangeIndicatorColor=7,102,120' /* 27,118,153 */
-		'org.eclipse.jface.REVISION_NEWEST_COLOR=75,44,3'
-		'org.eclipse.jface.REVISION_OLDEST_COLOR=154,113,61'
+		'org.eclipse.jface.REVISION_NEWEST_COLOR=121,116,14' /* 75,44,3 */
+		'org.eclipse.jface.REVISION_OLDEST_COLOR=143,63,113' /* 154,113,61 */
 }
 
