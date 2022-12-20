@@ -18,8 +18,8 @@
 
 .MPart {
     font-family: '#org-eclipse-ui-workbench-TAB_TEXT_FONT';
-    background-color: #292929;
-    color: #DDDDDD;
+    background-color: #282828; /* #292929 */
+    color: #F9F5D7; /* #DDDDDD */
 }
 
 .MPart.busy {
@@ -55,14 +55,14 @@
 .Mpart ScrolledComposite ProgressInfoItem,
 .MPart Form ScrolledPageBook,
 .MPart DependenciesComposite > SashForm > Section > * { /* Section > DependenciesComposite$... */
-    background-color: #2F2F2F;
-    color: #AAAAAA;
+    background-color: #282828; /* #2f2f2f */
+    color: #A89984; /* #AAAAAA */
 }
 
 
 .MPart Section > Label {
-    background-color: #2F2F2F;
-    color: #ABCEDA;
+    background-color: #282828; /* #2f2f2f */
+    color: #83A598; /* #ABCEDA */
 }
 
 .MPart Table,
@@ -72,13 +72,13 @@
 .MPart ViewForm > CLabel,
 .MPart PageBook > Label,
 .MPart PageBook > SashForm {
-    background-color: #313538;
-    color: #CCC;
+    background-color: #3C3836; /* #313538 */
+    color: #BDAE93; /* #CCCCCC */
 }
 
 .MPart Section Tree {
-    background-color: #383A3B;
-    color: #DDDDDD;
+    background-color: #3C3836; /* #383A3B */
+    color: #F9F5D7; /* #DDDDDD */
 }
 
 .MPart DatePicker,
@@ -90,16 +90,16 @@
 .MPart Composite > StyledText,
 .MPart PageBook > SashForm Label,
 .MPart SashForm > Text[style~='SWT.BORDER'] {
-    background-color: #3f4447;
-    color: #BBBBBB;
+    background-color: #1D2021; /* #3f4447 */
+    color: #A89984; /* #BBBBBB */
 }
 
 .MPart FormHeading,
 .MPart FormHeading > TitleRegion,
 .MPart FormHeading > TitleRegion > Label,
 .MPart FormHeading > TitleRegion > StyledText {
-    background-color: #505f70;
-    color: #9ac9d8;
+    background-color: #32302F; /* #505F70 */
+    color: #8EC07C; /* #9ac9d8 */
 }
 
 .MPart FormHeading,
@@ -107,14 +107,14 @@
     swt-background-mode: none;
 }
 .MPart FormHeading > CLabel {
-    background-color: #505f70;
-    color: #E98787;
+    background-color: #32302F; /* #505F70 */
+    color: #D3869D; /* #E98787 */
 }
 /* ------------------------------------------------------------- */
 
 #org-eclipse-jdt-ui-SourceView StyledText,
 #org-eclipse-wst-jsdt-ui-SourceView StyledText {
-    background-color: #252525;
+    background-color: #282828; /* #252525 */
 }
 
 /* ------------------------------------------------------------- */
@@ -122,8 +122,8 @@
 #org-eclipse-ui-console-ConsoleView .MPart > Composite,
 #org-eclipse-ui-console-ConsoleView .MPart StyledText,
 #org-eclipse-ui-console-ConsoleView .MPart PageBook Label {
-    background-color: #2F2F2F;
-    color: #CCCCCC;
+    background-color: #282828; /* #2f2f2f */
+    color: #BDAE93; /* #CCCCCC */
 }
 
 /* ------------------------------------------------------------- */
@@ -133,8 +133,8 @@
 }
 
 #org-eclipse-e4-ui-compatibility-editor LayoutCanvas {
-    background-color: #252525;
-    color: #CCCCCC;
+    background-color: #282828; /* #252525 */
+    color: #BDAE93; /* #CCCCCC */
 }
 
 
